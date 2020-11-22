@@ -4,5 +4,5 @@ bot = telebot.TeleBot(token)
 def echo_message(message):
     if message_text == "/start":
         bot.Send_messagge(message.chat.id, "ciao")
-        
+ bot.polling()
 
